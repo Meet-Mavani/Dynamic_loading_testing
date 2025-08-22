@@ -1,9 +1,13 @@
-# pyproject.toml
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "strands-tools"
+name = "dynamic-tools"
 version = "0.1.0"
-packages = ["strands_tools"]
+description = "Dynamic loading test tools for Strands Agent"
+authors = [{ name="Meet Mavani" }]
+dependencies = []
+
+[tool.setuptools]
+packages = ["strands-tools"]
