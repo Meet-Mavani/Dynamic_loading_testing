@@ -1,0 +1,9 @@
+# pyproject.toml
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "strands-tools"
+version = "0.1.0"
+packages = ["strands_tools"]
