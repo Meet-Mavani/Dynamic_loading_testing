@@ -10,4 +10,5 @@ authors = [{ name="Meet Mavani" }]
 dependencies = []
 
 [tool.setuptools]
-packages = ["strands-tools"]
+packages = ["tools"]
+
